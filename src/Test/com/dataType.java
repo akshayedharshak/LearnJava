@@ -1,6 +1,7 @@
 package Test.com;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 
 public class dataType {
     public static void main(String[] args) {
@@ -60,5 +61,15 @@ public class dataType {
         System.out.println(fruits);
         fruits.clear();
         System.out.println(fruits);
+
+        LinkedList <Integer> linkedList = new LinkedList<>();
+        linkedList.add(1);
+        linkedList.add(2);
+        linkedList.add(3);
+        System.out.println(linkedList.size());
+        linkedList.removeFirst();
+        System.out.println(linkedList);
+        System.out.println(linkedList.get(1));
+
     }
 }

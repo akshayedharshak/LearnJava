@@ -14,6 +14,7 @@ public class associativityOfOperator
         System.out.println(b);
         System.out.println(c);
         // Refer image and see the precedence, the higher the presidence will be taken.
+        // Modulus % gives the remainder of two numbers.
 
         //Quiz
         Scanner sc = new Scanner(System.in);
@@ -30,8 +31,6 @@ public class associativityOfOperator
         System.out.println(l);
         System.out.println(m);
         System.out.println(n);
-
-
     }
 
     }
